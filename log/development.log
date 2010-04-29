@@ -1,0 +1,32 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 22:34:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/ASM_Logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 22:35:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/ASM_Logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 22:36:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/ASM_Logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-04-28 23:00:43) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 65ms (View: 16, DB: 0) | 200 OK [http://localhost/rails/info/properties]
